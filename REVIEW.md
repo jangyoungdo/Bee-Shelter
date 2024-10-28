@@ -69,7 +69,7 @@
 - librosa.mfcc를 역추산하여 가장 높은 가중치를 갖는 Feature가 나타내는 주파수 대역 확인
 
  ![image](https://github.com/user-attachments/assets/29588abe-92de-4a1a-89f8-904bc5fea090)
- ![image](https://github.com/user-attachments/assets/56fe3797-91ba-4579-898c-f141569145f1)![image](https://github.com/user-attachments/assets/c2e1d067-f451-42f9-8c46-9f578d8b0574)
+ ![image](https://github.com/user-attachments/assets/56fe3797-91ba-4579-898c-f141569145f1) ![image](https://github.com/user-attachments/assets/c2e1d067-f451-42f9-8c46-9f578d8b0574)
 
 
 - 그 결과 말벌의 고유 주파수인 약 100Hz가 포함된 MFCC4의 가중치가 가장 높은 것을 확인할 수 있었음
