@@ -40,13 +40,14 @@
 - 위의 Clustering으로 성능을 확인한 전처리 방법을 그대로 적용할 것
 - 모델은 최대한 심플한(?), 가장 특징값에 포커싱할 수 있도록 Logistic Regression으로 진행할 것
 - 이후 과적합 예방과 보다 일반적인 모델을 제작하기 위해 준지도 학습인 Pseudo - Labeling을 진행
-
+- n_samples
   1. n_samples의 양을 6000으로 처음 진행 ⇒ 약 83%의 정확도 확인
   2. n_samples의 양을 늘려보기도 하고 줄여보기도 함 ⇒ 낮출 수록 정확도가 조금씩 높아짐
   3. n_samples의 양을 100부터 늘려가며 그래프로 나타내봄 ⇒ 100일 때, 가장 높음(Accuracy : 99.59 % )
  
 ![image](https://github.com/user-attachments/assets/bece8fa2-2393-4c17-8f2e-37828697aa2f)
 
+- threshold
   1. Threshold의 정도를 변화했을 떄, 어떤 변화가 발생할지 확인
   2. 신뢰도에 따라 수도 라벨링에 활용되는 데이터 양이 확 줄어들면 진행하는 의미가 없음
   3. 때문에 Threshold에 따른 활용되는 데이터 양 추이 확인
@@ -59,6 +60,16 @@
 ![image](https://github.com/user-attachments/assets/0e99dbe4-a596-4991-ac08-e42c0cd751ab)
 
   => 큰 차이를 보이지는 않으나 n_samples = 100, Threshold = 0.95일 때, 성능이 가장 높음을 확인할 수 있음
+
+---
+
+## 모델에서 가장 높은 가중치 확인 및 검증
+- n_samples를 100, 신뢰 구간을 0.95로 세팅했을 때의 모델의 성능으로 독립변수들의 가중치를 구해봄
+- 모델 제작에서 로지스틱 회귀 모델 수식의 가중치를 확인
+- librosa.mfcc를 역추산하여 가장 높은 가중치를 갖는 Feature가 나타내는 주파수 대역 확인
+
+ ![image](https://github.com/user-attachments/assets/29588abe-92de-4a1a-89f8-904bc5fea090)
+ ![image](https://github.com/user-attachments/assets/56fe3797-91ba-4579-898c-f141569145f1)
 
 
 
