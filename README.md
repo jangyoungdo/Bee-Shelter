@@ -72,7 +72,6 @@ Bee_Project/
 ├── notebooks/           # 실험용 소스코드 (0) ~ (14)
 ├── src/                 # 주요 소스 코드
 │   ├── preprocessing.py # 데이터 전처리 코드
-│   ├── feature_extract.py # 특징 추출 코드
 │   ├── train_model.py   # 모델 학습 코드
 │   └── evaluate_model.py # 모델 평가 코드
 ├── requirements.txt     # 필수 라이브러리 목록
