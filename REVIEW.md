@@ -12,10 +12,11 @@
 
 ## 전처리 과정을 통한 특징값 검증
 
-|| Low Pass Filter(1000Hz | Low Pass Filter(500Hz) |
+|MFCC| Low Pass Filter(1000Hz | Low Pass Filter(500Hz) |
 |:------------------:|:------------------:|:------------------:|
-|MFCC(꿀벌)| ![image](https://github.com/user-attachments/assets/5d4f51dc-f5f1-42b9-a288-299d9651ebfe) | ![image](https://github.com/user-attachments/assets/dd5fc1e1-44c7-4bc1-9714-4c97c30f21d2) |
-
+|꿀벌| ![image](https://github.com/user-attachments/assets/5d4f51dc-f5f1-42b9-a288-299d9651ebfe) | ![image](https://github.com/user-attachments/assets/dd5fc1e1-44c7-4bc1-9714-4c97c30f21d2) |
+|말벌| ![image](https://github.com/user-attachments/assets/74769773-7b52-4d33-b4ff-ea5827c27076) | ![image](https://github.com/user-attachments/assets/a08c194f-a938-410f-b664-c67159f8a13e) |
+|Clustering <br> Accuracy| ![image](https://github.com/user-attachments/assets/f4a46471-14fd-42a5-8099-d3e994a80702) <br> ![image](https://github.com/user-attachments/assets/28cec96b-8a00-4576-b3d2-0da834a5d24d) | ![image](https://github.com/user-attachments/assets/f4a46471-14fd-42a5-8099-d3e994a80702) <br> ![image](https://github.com/user-attachments/assets/28cec96b-8a00-4576-b3d2-0da834a5d24d) |
 
 |Low Pass Filter(1000Hz)|Low Pass Filter(500Hz)|
 
