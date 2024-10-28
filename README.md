@@ -63,15 +63,13 @@
 ```
 Bee_Project/
 ├── data/                # 데이터셋 저장 디렉터리
-├── models/              # 학습된 모델 저장 디렉터리
 ├── notebooks/           # 실험용 소스코드 (0) ~ (14)
 ├── src/                 # 주요 소스 코드
 │   ├── preprocessing.py # 데이터 전처리 코드
 │   ├── train_model.py   # 모델 학습 코드
 │   └── evaluate_model.py # 모델 평가 코드
 ├── requirements.txt     # 필수 라이브러리 목록
+├── REVIEW.md            # 프로젝트 내용
 └── README.md            # 프로젝트 설명 파일
 ```
 
-## 프로젝트 내용
-[리뷰](https://github.com/jangyoungdo/Bee-Shelter/blob/main/REVIEW.md)
