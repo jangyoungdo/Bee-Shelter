@@ -1,3 +1,8 @@
+import numpy as np
+from scipy.signal import butter, lfilter
+import librosa
+import pandas as pd
+
 def butter_lowpass(cutoff, fs, order=5):
     """저역 통과 필터 생성 함수"""
     nyquist = 0.5 * fs
@@ -33,3 +38,8 @@ def process_and_save_features(audio_files, cutoff=500, target_sr=2000, output_cs
         features.append(mfcc_features)
         labels.append(label)
     
+    # 데이터프레임 생성 및 CSV 저장
+    features_df = pd.DataFrame(features, columns=[f'MFCC_{i+1}' for i in range(len(features[0]))])
+    features_df['label'] = labels
+    features_df.to_csv(output_csv, index=False)
+    print(f"특징 데이터가 {output_csv}에 저장되었습니다.")
