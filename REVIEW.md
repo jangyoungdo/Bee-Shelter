@@ -19,5 +19,19 @@
 
   - MFCC(말벌)
     ![image](https://github.com/user-attachments/assets/74769773-7b52-4d33-b4ff-ea5827c27076)
+
+  - Clustering Accuracy
+    ![image](https://github.com/user-attachments/assets/f4a46471-14fd-42a5-8099-d3e994a80702)
+    ![image](https://github.com/user-attachments/assets/28cec96b-8a00-4576-b3d2-0da834a5d24d)
+
+  - Logistic Regression Accuracy
+    ![image](https://github.com/user-attachments/assets/4901a280-2642-4419-aae4-9760f1d23434)
+
     
 - Low Pass Filter(500Hz)
+
+  - MFCC(꿀벌)
+    ![image](https://github.com/user-attachments/assets/dd5fc1e1-44c7-4bc1-9714-4c97c30f21d2)
+
+  - MFCC(말벌)
+    ![image](https://github.com/user-attachments/assets/a08c194f-a938-410f-b664-c67159f8a13e)
