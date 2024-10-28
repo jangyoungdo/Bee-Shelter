@@ -3,6 +3,8 @@
 - 내가 애초에 DAQ 장비를 활용한 것이 아니라 녹음기로 실험을 진행한 부분이고, 수집 환경 또한 양봉장과 박물관 같은 노이즈에 아주 취약한 환경임
 - 물론 더욱 일반적인 모델을 만들 수 있을 지 모르겠지만, 일단 모델을 만드는 단계에서 나는 특징값에 더욱 주목했고, 때문에 주파수 영역에서의 다양한 시도를 진행했음
 
+---
+
 ## 디바이스와 합치기 이전에 모델 및 데이터에 대해 이해하는 것을 다시 시작
 - 주파수와 샘플 레이트에 대한 더 높은 이해 필요
 - 또한 염가형 마이크로폰의 경우 샘플레이트가 굉장히 낮기에 2000으로 재지정 필요
@@ -42,6 +44,22 @@
   1. n_samples의 양을 6000으로 처음 진행 ⇒ 약 83%의 정확도 확인
   2. n_samples의 양을 늘려보기도 하고 줄여보기도 함 ⇒ 낮출 수록 정확도가 조금씩 높아짐
   3. n_samples의 양을 100부터 늘려가며 그래프로 나타내봄 ⇒ 100일 때, 가장 높음(Accuracy : 99.59 % )
+ 
+![image](https://github.com/user-attachments/assets/bece8fa2-2393-4c17-8f2e-37828697aa2f)
+
+  1. Threshold의 정도를 변화했을 떄, 어떤 변화가 발생할지 확인
+  2. 신뢰도에 따라 수도 라벨링에 활용되는 데이터 양이 확 줄어들면 진행하는 의미가 없음
+  3. 때문에 Threshold에 따른 활용되는 데이터 양 추이 확인
+
+![image](https://github.com/user-attachments/assets/081fcd6e-7a2d-46a0-a72e-0684343396bc)
+
+- 신뢰구간 + 샘플 량을 변화하며 가장 성능이 높은 모델 찾기
+
+![image](https://github.com/user-attachments/assets/bcafabe8-3c5a-45b5-8510-9cc2819eecaf)
+![image](https://github.com/user-attachments/assets/0e99dbe4-a596-4991-ac08-e42c0cd751ab)
+
+  => 큰 차이를 보이지는 않으나 n_samples = 100, Threshold = 0.95일 때, 성능이 가장 높음을 확인할 수 있음
+
 
 
 
