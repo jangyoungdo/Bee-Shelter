@@ -8,3 +8,16 @@
 - 또한 염가형 마이크로폰의 경우 샘플레이트가 굉장히 낮기에 2000으로 재지정 필요
 - LPF(Low Pass Filter) 1000Hz로 했을 때보다 500Hz로 했을 때, 비지도 학습 Clustering 정도가 높은 것을 확인할 수 있었음
 - clustering이 잘 진행 되었을 때, Logistic 회귀 진행이 잘 되는 것을 확인할 수 있었음
+
+
+## 전처리 과정을 통한 특징값 검증
+
+- Low Pass Filter(1000Hz)
+
+  - MFCC(꿀벌)
+    ![image](https://github.com/user-attachments/assets/5d4f51dc-f5f1-42b9-a288-299d9651ebfe)
+
+  - MFCC(말벌)
+    ![image](https://github.com/user-attachments/assets/74769773-7b52-4d33-b4ff-ea5827c27076)
+    
+- Low Pass Filter(500Hz)
