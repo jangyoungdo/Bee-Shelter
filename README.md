@@ -69,7 +69,7 @@
 Bee_Project/
 ├── data/                # 데이터셋 저장 디렉터리
 ├── models/              # 학습된 모델 저장 디렉터리
-├── notebooks/           # 실험용 소스코드 (0) ~ (13)
+├── notebooks/           # 실험용 소스코드 (0) ~ (14)
 ├── src/                 # 주요 소스 코드
 │   ├── preprocessing.py # 데이터 전처리 코드
 │   ├── feature_extract.py # 특징 추출 코드
