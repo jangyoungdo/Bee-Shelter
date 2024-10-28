@@ -1,4 +1,4 @@
-구글 드라이버 링크
+구글 드라이브 링크
 https://drive.google.com/drive/folders/1ovZsmdDs7xVZLayLpMe8w8nJ2ok1d9YT?usp=drive_link
 
 ```
