@@ -42,38 +42,4 @@
 ## 향후 작업
 
 - **엣지 장치 통합**: 벌통 환경에서 실시간 모니터링을 위한 **IoT** 장치에 모델을 통합할 계획입니다.
-- **데이터셋 확장**: 다양한 말벌 종과 여러 환경 조건을 포함하도록 데이터셋을 확대할 예정입니다.
-- **잡음 감소 개선**: 다양한 환경 조건에서 정확도를 높이기 위해 잡음 필터링 과정을 추가로 개선할 계획입니다.
-
----
-
-## 실행 방법
-
-1. **필수 라이브러리 설치**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. **데이터 준비**: 데이터셋을 `data/` 디렉터리에 저장합니다.
-3. **모델 학습**: 아래의 명령어를 통해 모델을 학습시킵니다.
-   ```bash
-   python train_model.py
-   ```
-4. **모델 평가**: 학습된 모델을 평가하려면 다음 명령어를 사용하세요.
-   ```bash
-   python evaluate_model.py
-   ```
-
-## 프로젝트 구조
-
-```
-Bee_Project/
-├── data/                # 데이터셋 저장 디렉터리
-├── models/              # 학습된 모델 저장 디렉터리
-├── notebooks/           # 실험용 소스코드 (0) ~ (14)
-├── src/                 # 주요 소스 코드
-│   ├── preprocessing.py # 데이터 전처리 코드
-│   ├── train_model.py   # 모델 학습 코드
-│   └── evaluate_model.py # 모델 평가 코드
-├── requirements.txt     # 필수 라이브러리 목록
-└── README.md            # 프로젝트 설명 파일
-```
+- **데이터셋 확장**:뷰](https://github.com/jangyoungdo/Bee-Shelter/blob/main/REVIEW.md)
