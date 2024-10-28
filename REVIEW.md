@@ -77,3 +77,25 @@
 - 혹은 선형 문제에서 빈번한 다중공선성에 의거한 오류일 수 있음
 - 특정 변수가 다른 변수에 의해 설명되는 정도가 커져, 그 변수의 기여가 부정적(음수)으로 나타날 수 있음
 
+- Correlation Matrix
+![image](https://github.com/user-attachments/assets/9a0835a9-804e-40b3-a61c-c4ad4fedff46)
+
+- VIF 검사(다중공선성 검)
+![image](https://github.com/user-attachments/assets/5a3caa06-79c8-4673-82ef-ea3554baf1f2)
+
+- 말벌의 고유 주파수와 가까운 주파수 대역의 MFCC값에서 VIF 값이 높게 측정됨
+- 다중공선성의 가능성이 매우 높은 것을 확인할 수 있었음
+- 그래서 뽑은 특징값들에 대해 다시 한번 PCA를 진행
+- 다중공선성을 어느 정도 예방하고자 함
+- 만약 그 영향이 있었다면 어느 정도 성능 향상이 보일 것으로 생각됨
+
+![image](https://github.com/user-attachments/assets/c7eaa458-652d-4022-abfd-4ea85a2de906) 
+
+![image](https://github.com/user-attachments/assets/f5ac1274-2bd1-45b8-9479-3bb7fed71d89)
+
+![image](https://github.com/user-attachments/assets/2c0d5a46-9483-4f10-b9dc-7ebc91373019)
+
+
+
+
+
