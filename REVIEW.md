@@ -78,9 +78,11 @@
 - 특정 변수가 다른 변수에 의해 설명되는 정도가 커져, 그 변수의 기여가 부정적(음수)으로 나타날 수 있음
 
 - Correlation Matrix
+  
 ![image](https://github.com/user-attachments/assets/9a0835a9-804e-40b3-a61c-c4ad4fedff46)
 
 - VIF 검사(다중공선성 검)
+  
 ![image](https://github.com/user-attachments/assets/5a3caa06-79c8-4673-82ef-ea3554baf1f2)
 
 - 말벌의 고유 주파수와 가까운 주파수 대역의 MFCC값에서 VIF 값이 높게 측정됨
