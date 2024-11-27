@@ -14,7 +14,7 @@
 
 ## 전처리 과정을 통한 특징값 검증
 
-|MFCC| Low Pass Filter(1000Hz | Low Pass Filter(500Hz) |
+|MFCC| Low Pass Filter(1000Hz) | Low Pass Filter(500Hz) |
 |:------------------:|:------------------:|:------------------:|
 |꿀벌| ![image](https://github.com/user-attachments/assets/5d4f51dc-f5f1-42b9-a288-299d9651ebfe) | ![image](https://github.com/user-attachments/assets/dd5fc1e1-44c7-4bc1-9714-4c97c30f21d2) |
 |말벌| ![image](https://github.com/user-attachments/assets/74769773-7b52-4d33-b4ff-ea5827c27076) | ![image](https://github.com/user-attachments/assets/a08c194f-a938-410f-b664-c67159f8a13e) |
